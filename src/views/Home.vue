@@ -20,7 +20,7 @@ export default {
   },
   data () {
     return {
-      direction: "请在移动端设备或模拟器下滑动"
+      direction: "请务必在移动端设备或模拟器下滑动"
     }
   },
   methods: {

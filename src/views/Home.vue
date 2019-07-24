@@ -1,10 +1,7 @@
 <template>
   <div class="home">
     <div class="box">
-      <slip-direction @handleup='handleup'
-                      @handledown="handledown"
-                      @handleleft='handleleft'
-                      @handleright='handleright'>
+      <slip-direction @handleup='handleup' @handledown="handledown" @handleleft='handleleft' @handleright='handleright'>
       </slip-direction>
     </div>
     <span>滑动方向：<span class="text">{{direction}}</span></span>
